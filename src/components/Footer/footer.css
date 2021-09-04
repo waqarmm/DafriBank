@@ -1,0 +1,194 @@
+.mainFooter {
+  background-color: #5841d8;
+  height: auto;
+  padding: 80px 0px;
+}
+.SignUp {
+  width: 100%;
+}
+
+.SignUp h3 {
+  color: #ffff;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: -1px;
+}
+.Prices h3 {
+  padding: 0px 17px;
+  color: white;
+  opacity: 60%;
+  font-size: 23px;
+}
+.Prices a {
+  display: block;
+  padding: 0px 17px;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+.SignUp .btn2 {
+  height: 40px;
+  font-weight: 700;
+  width: 57%;
+  font-size: 12px;
+  background-color: #5841d8;
+  border: 2px solid white;
+  color: white;
+  border-radius: 20px;
+  margin: 9px 0px;
+}
+.SignUp .btn1 {
+  background-color: white;
+  border-radius: 20px;
+  border: none;
+  height: 40px;
+  font-size: 13px;
+  font-weight: 700;
+  width: 57%;
+  color: #5841d8;
+  margin: 10px 0px;
+}
+.SignUp .btn1:hover {
+  opacity: 75%;
+}
+.SignUp .btn2:hover {
+  opacity: 75%;
+}
+.mediaPart hr {
+  width: 100%;
+  opacity: 17%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.iconsMain {
+  display: flex;
+  justify-content: space-around;
+}
+.footerLogo h3 {
+  font-size: 22px;
+  color: white;
+}
+.icons {
+  height: 40px;
+  width: 40px;
+  border: 2px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+.icons img {
+  width: 15px;
+  height: 15px;
+}
+.language {
+  text-align: center;
+  /* margin-left: 10px; */
+}
+.language1 a {
+  color: white;
+  display: block;
+  text-decoration: underline;
+  opacity: 70%;
+  font-size: 10px;
+}
+.language1 {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+.language1 li {
+  list-style: none;
+  font-size: 10px;
+  color: white;
+}
+.language li {
+  list-style: none;
+  color: white;
+}
+.language sle {
+  background-color: #5841d8 !important;
+}
+.language2 {
+  display: flex;
+  list-style: none;
+  color: white;
+  justify-content: space-between;
+}
+.language2 li {
+  margin-top: 5px;
+  opacity: 70%;
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  position: relative;
+  background-color: #5841d8 !important;
+  background-color: #fff;
+  color: white !important;
+  border: none !important;
+  border-bottom: 1px solid #d9d9d9 !important;
+  border-radius: 2px;
+  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.ant-select-arrow {
+  display: inline-block;
+  color: inherit;
+  font-style: normal;
+  line-height: 0;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: absolute;
+  top: 53%;
+  right: 11px;
+  width: 12px;
+  height: 12px;
+  margin-top: -6px;
+  color: rgb(255 255 255) !important;
+  font-size: 12px;
+  line-height: 1;
+  text-align: center;
+  pointer-events: none;
+}
+
+.price-sm {
+  display: none;
+}
+
+@media (max-width: 635px) {
+  .footer-btns {
+    display: flex !important;
+  }
+  .mainFooter {
+    padding: 40px 0px;
+  }
+  .SignUp {
+    border-bottom: 1px #cecdcd solid;
+  }
+  .SignUp br {
+    display: none;
+  }
+  .price-sm {
+    display: block;
+  }
+  .price-lg {
+    display: none;
+  }
+  .language2 li {
+    display: none;
+  }
+  .language1 {
+    display: flex;
+    margin-top: 1rem;
+  }
+  .language2 {
+    margin-top: 1rem;
+  }
+}

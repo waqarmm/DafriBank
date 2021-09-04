@@ -1,0 +1,61 @@
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
+.exchange-sec {
+  background-color: #fbfbfb;
+}
+.exchange-content {
+  text-align: left;
+  background-color: #fbfbfb;
+  padding: 100px 0 166.5px;
+  line-height: 1.19;
+}
+.exchange-header {
+  line-height: 0.19;
+}
+.exchange-header h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  line-height: 37px;
+  letter-spacing: -1.5px;
+  color: #5741d9;
+  font-weight: 700;
+  font-size: 33.3px;
+}
+
+.exchange-header p {
+  font-family: Celias;
+  font-weight: 300;
+  font-size: 28px;
+}
+
+.exchange-cards {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between !important;
+}
+
+.lastCards {
+  display: flex !important;
+  align-items: center !important;
+}
+.lastCards p {
+  margin-bottom: 12px !important;
+  margin-left: 8px !important;
+}
+
+@media (max-width: 635px) {
+  .exchange-header {
+    line-height: normal;
+  }
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .exchange-content {
+    padding: 50px 0 50px;
+  }
+  .exchange-header {
+    display: block !important;
+  }
+}

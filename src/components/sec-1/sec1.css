@@ -1,0 +1,61 @@
+.cryptocurrencies-sec {
+  text-align: left;
+  padding: 100px 0;
+}
+
+.cryptocurrencies-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffff;
+}
+
+.cryptocurrencies-text h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  line-height: 37px;
+  letter-spacing: -1.5px;
+  font-weight: 700;
+  color: #ffff;
+  font-size: 33.3px;
+  letter-spacing: -1.5px;
+  margin-bottom: 0 !important;
+}
+
+.cryptocurrencies-text p {
+  font-family: Celias;
+  font-weight: 300;
+  font-size: 28px;
+  color: #ffff;
+}
+
+.cryptocurrencies-text-content h2 {
+  font-size: 14px;
+  line-height: 1.7;
+  margin: 0 0 16px;
+  color: #ffff;
+  font-weight: 700;
+}
+
+.cryptocurrencies-text-content p {
+  font-size: 14px;
+  line-height: 1.7;
+  margin: 0 0 16px;
+}
+
+.cryptocurrencies-btn {
+  display: table;
+  margin-top: 35px;
+  border: 0;
+  padding: 17px 22px 16px !important;
+  border-radius: 30px;
+  text-align: center;
+  font-family: Celias;
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: 600;
+  transition: all 1s;
+}
+.cryptocurrencies-btn:hover {
+  cursor: pointer;
+  opacity: 70%;
+}
